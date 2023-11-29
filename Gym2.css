@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}body{
+    background-color:#000;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url(https://img.freepik.com/free-photo/top-view-perfectly-ordered-fitness-items_23-2150321809.jpg?w=1060&t=st=1701178301~exp=1701178901~hmac=cb38e7a890eb06b7bba634693879425e2cedbb9e24b21665cdaf4fa9943f2b06);
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: white;
+    z-index: 999;
+
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.595);
+    font-size: 1.15rem;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right: 80px;
+    margin-top: 6px;
+}
+
+ 
+ul li a:hover{
+    color: #94e9fa;
+
+}
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: #ade8f4;
+}
+.plan .head{
+    font-size: 35px;
+    position: absolute;
+    left:35%;
+    margin-top: 100px;
+}
+.plan .ourPlan{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:250px;
+}
+.plan .box{
+    margin:50px 50px 120px;
+    border: 1px solid rgb(130, 129, 129);
+    background-color:rgb(214, 246, 246, 0.8) ;
+    color: #000;
+    padding: 20px 50px;
+    border-radius: 0.55rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box p{
+    margin:30px 0px;
+    font-size: 1.1rem;
+}
+.box button{
+    padding: 10px 12px;
+    margin: 15px 45px;
+    background-color: orange;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+.box h3{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 22px;
+    box-shadow: 0px 2px 6px 4px rgb(36, 36, 36);
+}
+.footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+}
+.footerText p{
+    margin-top: 11px;
+    color: silver;
+}

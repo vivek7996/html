@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="tracker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://imgs.search.brave.com/JUFylwXMG56VXYdfhZ5gna0nK1-HJvhajXqaRe-L7-E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5ncmVwby5jb20v/cG5nLzMwMTI0LzE4/MC9kdW1iYmVsbC5w/bmc" type="image/x-icon">
+    <title>FitEase</title>
+</head>
+<body>
+    <nav>
+    <div class="logo">
+        <h1><i class="fa-solid fa-dumbbell"></i> FitEase</h1>
+    </div>
+    <ul>
+        <li>
+            <a href="index.html" id="back" onclick="back()">Previous</a>
+        </li>
+    </ul>
+</nav>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <form id="exercise-form">
+            <div class="form-item">
+                <label for="exercise">Exercise:</label>
+                <input type="text" id="exercise" name="exercise" required>
+            </div>
+            <div class="form-item">
+                <label for="Reps">Reps:</label>
+                <input type="number" id="reps" name="reps" required>
+            </div>
+            <div class="form-item">
+                <label for="duration">Duration (minutes):</label>
+                <input type="number" id="duration" name="duration" required>
+            </div>
+            <div class="form-item">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <button type="submit">Add Exercise</button>
+        </form>
+        <div id="exercise-list"></div>
+    </div>
+    <script src="tracker.js"></script>
+</body>
+</html>
